@@ -1783,3 +1783,22 @@ td:last-child {
 }
 
 
+.hero-image {
+    width: 120px;          /* Minimum readable size */
+    max-width: 36vw;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    transition: transform 0.25s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.15);   /* Readability on demand */
+}
+
+@media (max-width: 600px) {
+    .hero-image {
+        width: 95px;        /* Extreme reduction for mobile */
+    }
+}

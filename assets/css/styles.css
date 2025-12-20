@@ -1817,9 +1817,8 @@ td:last-child {
 .important-instructions h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #1e3a8a;
+    color: #0B2B4A;
     font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
@@ -1894,8 +1893,7 @@ td:last-child {
     font-size: 2rem;
     margin-bottom: 35px;
     font-weight: 700;
-    color: #1e3a8a;
-    text-transform: uppercase;
+    color: #0B2B4A;
     letter-spacing: 0.5px;
 }
 
